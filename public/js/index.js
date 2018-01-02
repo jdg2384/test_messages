@@ -1,6 +1,6 @@
 $(document).ready(function() {
 
-    var $xhr = $.getJSON('http://localhost:3000/test');
+    var $xhr = $.getJSON('https://morning-beyond-53801.herokuapp.com/test');
     $xhr.done(function(data) {
         if ($xhr.status !== 200) {
             return;
